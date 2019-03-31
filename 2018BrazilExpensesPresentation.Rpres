@@ -1,0 +1,48 @@
+2018BrazilExpenses Presentation
+========================================================
+author: Gustavo Thomaz Peconick
+date: 03/31/3019
+autosize: true
+
+Motivation
+========================================================
+
+Since 2009's "Law of Transparency" brazilian government is obligated to provide
+transparecy for all expneses and budgets. The data is scattered thru mary
+different portals, with no regularization over the data and poor usability on
+the websites.
+
+*This project is part of Johns Hopkins (Courseara) Data Science Specialization.*
+
+Our tool
+========================================================
+
+This simple tool allows to use a tree-like exploration and vizualizarion over
+the "Transparency" data alowing a non-technical person to monitor government
+expenses.
+
+By simply taking a look tha the structure of the data of a single file at
+"Portal da Transparencia", we can have a glimpse of the difficulty it is for a
+common citzen to find the information he wants
+
+```{r}
+budget<-read.csv("brazilianBudget2008.csv")
+kable(str(budget))
+
+```
+
+Our Vision
+========================================================
+
+We belive data shound not only be avaiable, but also accessible.
+
+By providing a easy-to-use UI, with visuals and click to explore interaction we
+believe that more people would be interested on the data and tools like this ones
+can help improove democracy.
+
+
+Contact
+========================================================
+
+If you belive in our vision, have good data viz skills and want to make Brazil a
+better place, please contatc me at peconick@gmail.com
